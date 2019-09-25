@@ -17,14 +17,15 @@
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>License.md</PackageLicenseFile>
     <RootNamespace>PlatformSpellCheck</RootNamespace>
+    <AssemblyName>PlatformSpellCheck</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\WilliamForney\OneDrive - IMPROVGROUP LLC\Documents\GitHub\SpellCheck\src\SpellCheck\SpellCheck.xml</DocumentationFile>
+    <DocumentationFile>C:\Users\WilliamForney\OneDrive - IMPROVGROUP LLC\Documents\GitHub\SpellCheck\src\SpellCheck\bin\$(Configuration)\PlatformSpellCheck.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>C:\Users\WilliamForney\OneDrive - IMPROVGROUP LLC\Documents\GitHub\SpellCheck\src\SpellCheck\SpellCheck.xml</DocumentationFile>
+    <DocumentationFile>C:\Users\WilliamForney\OneDrive - IMPROVGROUP LLC\Documents\GitHub\SpellCheck\src\SpellCheck\bin\$(Configuration)\PlatformSpellCheck.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

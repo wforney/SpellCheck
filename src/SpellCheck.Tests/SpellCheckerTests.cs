@@ -1,5 +1,5 @@
-﻿// <copyright file="SpellCheckerTests.cs" company="SpellCheck.Tests">
-//     Copyright © .NET Foundation. All rights reserved.
+﻿// <copyright file="SpellCheckerTests.cs" company="Bruce Bowyer-Smyth">
+//     Copyright © Bruce Bowyer-Smyth. All rights reserved.
 // </copyright>
 
 namespace PlatformSpellCheck.Tests
