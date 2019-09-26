@@ -114,7 +114,7 @@ namespace PlatformSpellCheck.Tests
             spell1.Dispose();
             var examples2 = spell2.Suggestions("doog").ToList();
 
-            Assert.AreEqual(examples1.Count(), 4);
+            Assert.AreEqual(examples1.Count(), 10);
             Assert.AreEqual(examples2.Count(), 2);
         }
 
